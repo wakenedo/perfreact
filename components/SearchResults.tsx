@@ -8,13 +8,15 @@ interface SearchResultsProps {
     }>
 }
 
-export function SearchResults({results} : SearchResultsProps) {
+export function SearchResults({ results }: SearchResultsProps) {
+
     return (
         <div>
-           {results.map((product) => (
-                   <ProductItem product={product}/>
-               )
-           )} 
+            {results.map(product => {
+                return (
+                    <ProductItem product={product} />
+                )
+            })}
         </div>
     )
 }

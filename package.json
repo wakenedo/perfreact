@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server": "json-server -d 750 -w -p 3333 ./server.js"
+    "server": "json-server -d 250 -w -p 3333 ./server.js"
   },
   "dependencies": {
     "next": "12.1.4",
